@@ -108,8 +108,8 @@ async def set_database_global_context_variables(dataset: Union[str, UUID], user_
 
     Note: This is only currently supported by the following databases:
           Relational: SQLite, Postgres
-          Vector: LanceDB, pgvector
-          Graph: KuzuDB, neo4j_aura_dev
+          Vector: LanceDB, pgvector (PostgreSQL vector extension)
+          Graph: KuzuDB, neo4j_aura_dev (Neo4j cloud service)
 
     Args:
         dataset: Cognee dataset name or id
